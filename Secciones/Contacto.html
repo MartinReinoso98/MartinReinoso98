@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Img/food-g8f42fe062_1920.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Secciones.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <main>
+    <header class="header"> <br>
+        <strong><div class="logo" data-aos="flip-up" data-aos-delay="400">Papa <span>Richards</span></div></strong>
+        <nav class="barra"></nav>
+            <ul>
+                <li><a href="../index.html"> Inicio </li>
+                <li><a href="Sobre nosotros.html" target="_blank"> Sobre Nosotros </a></li>
+                <li><a href="Platos.html" target="_blank"> Platos </a></li>
+                <li><a href="Promociones.html" target="_blank"> Promociones </a></li>
+                <li><a href="Reservaciones.html" target="_blank"> Reservaciones </a></li>
+                <li><a href="Contacto.html" target="_blank"> Contacto </a></li>
+            </ul>
+    </header>
+        <h2>Formulario</h2>
+        <form method="post" enctype="application/x-www-form-urlencoded">
+        <!-- Casilla del nombre en el formulario -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="Nombre">
+        <!-- Casilla del apellido en el formulario -->
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="Apellido"> <br>
+        <!-- Casilla de la edad en el formulario -->
+        <label for="edad1">Edad:</label>
+        <input type="text" name="Apellido"> <br>
+        <!-- Casilla de la fecha en el formulario -->
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="Fecha"> <br>
+        <!-- Casilla del correo en el formulario -->
+        <label for="correo">Correo:</label>
+        <input type="email" name="Correo" required placeholder="Escribe tu correo"> <br>
+        <!-- Casilla de reseñas en el formulario -->
+        <label for="comentarios">Reseña:</label> <br>
+        <textarea name="comentarios" cols="25" rows="10" required placeholder="Escribe aqui"></textarea> </textarea> <br>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+    </form>
+    </nav>
+    <div class="redes">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook-messenger"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
