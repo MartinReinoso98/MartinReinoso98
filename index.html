@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="Img/food-g8f42fe062_1920.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="Principal.css">
     <title>Tareas</title>
 </head>
@@ -16,16 +17,16 @@
         <strong><div class="logo" data-aos="fade-down" data-aos-delay="300">Papa<span>Richards</span></div></strong>
         <nav class="barra"></nav><br>
             <ul>
-                <li><a href="#">Inicio<a></li>
-                <li><a href="Secciones/Sobre nosotros.html" target="_blank"> Sobre nosotros </a></li>
-                <li><a href="Secciones/Platos.html" target="_blank"> Platos </a></li>
-                <li><a href="Secciones/Promociones.html" target="_blank"> Promociones </a></li>
-                <li><a href="Secciones/Reservaciones.html" target="_blank"> Reservaciones </a></li>
-                <li><a href="Secciones/Contacto.html" target="_blank"> Contacto </a></li>
+                <li data-aos="fade-right" data-aos-delay="650"><a href="#">Inicio<a></li>
+                <li data-aos="fade-right" data-aos-delay="850"><a href="Secciones/Sobre nosotros.html" target="_blank"> Sobre nosotros </a></li>
+                <li data-aos="fade-right" data-aos-delay="1050"><a href="Secciones/Platos.html" target="_blank"> Platos </a></li>
+                <li data-aos="fade-right" data-aos-delay="1250"><a href="Secciones/Promociones.html" target="_blank"> Promociones </a></li>
+                <li data-aos="fade-right" data-aos-delay="1450"><a href="Secciones/Reservaciones.html" target="_blank"> Reservaciones </a></li>
+                <li data-aos="fade-right" data-aos-delay="1650"><a href="Secciones/Contacto.html" target="_blank"> Contacto </a></li>
             </ul>
     </header>
-        <h2>Informacion general</h2>
-        <table border="0" cellspacing="5" cellpadding="5">
+        <h2 data-aos="fade-down" data-aos-delay="1800">Informacion general</h2>
+        <table data-aos="fade-down" data-aos-delay="2200" border="0" cellspacing="5" cellpadding="5">
             <tr>
                 <th>Nombre del restaurante</th>
             <tr>
@@ -43,5 +44,9 @@
             </tr>
         </table>
 </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
