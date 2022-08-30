@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$color1: powderblue;
+$color2: black;
+$color3: chocolate;
+$color4: beige;
+
+header{
+    height: 110px;
+    width: 100%;
+    background-color: $color1;
+}
+    .logo{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo:hover{
+        transform: scale(1,2);
+        transition:all 0,3s;
+    }
+    .logo span::before{
+        content: "🍜";
+        color: $color2;
+        text-shadow: 0 0 10px #fff;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+    }
+    .barra a:hover{
+        color: $color2;
+    }
+    li{
+        font-size: 10px;
+        display: inline-block;
+        padding-left: 60px;
+    }
+    a{
+        color: $color2;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+h2{
+    margin: 20px;
+    color: $color3;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+}
+table{
+    margin: 10px;
+    padding: 5px;
+}
+    th{
+        font-family: serif;
+        color: $color2;
+        background-color: $color4;
+        font-size: 20px;
+        text-align: center;
+}
+    td{
+        font-family: serif;
+        color: black;
+        background-color: $color4;
+        font-size: 20px;
+        text-align: center;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image:url(Img/depositphotos_14915953-stock-photo-black-scratched-grunge-stucco-wall.jpg);
+    background-size:cover;
+    background-position: center;
+}
+i{
+    color: $color3;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 50px;
+}
