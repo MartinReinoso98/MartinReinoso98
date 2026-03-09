@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=7A5CFA&center=true&vCenter=true&width=600&lines=Hola%2C+soy+Martin+Reinoso;Estudiante+de+programación;Python+%7C+Flask+%7C+HTML)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:7A5CFA,100:3B2F80&height=200&section=header&text=Martin%20Reinoso&fontSize=40)
 
 # 👋 Hola, soy Martin Reinoso
 
