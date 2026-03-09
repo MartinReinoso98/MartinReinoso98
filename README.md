@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=7A5CFA&center=true&vCenter=true&width=600&lines=Hola%2C+soy+Martin+Reinoso;Estudiante+de+programación;Python+%7C+Flask+%7C+HTML)
+
 # 👋 Hola, soy Martin Reinoso
 
 💻 Estudiante de programación
