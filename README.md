@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:7A5CFA,100:3B2F80&height=200&section=header&text=Martin%20Reinoso&fontSize=40)
+![snake](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)![snake](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
 
 # 👋 Hola, soy Martin Reinoso
 
