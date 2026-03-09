@@ -21,12 +21,4 @@
 
 ---
 
-## 📊 Estadísticas de GitHub
-
-![Martin's GitHub stats](https://github-readme-stats.vercel.app/api?username=MartinReinoso98\&show_icons=true\&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinReinoso98\&layout=compact\&theme=tokyonight)
-
----
-
 ⭐ Siempre aprendiendo programación y desarrollo web
