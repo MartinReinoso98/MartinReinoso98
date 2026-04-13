@@ -20,7 +20,7 @@
 ## 📂 Proyectos
 
 🔹 Sistema de trámites
-🔹 Aplicación web con Flask y SQLAlchemy
+🔹 Aplicación web en Python con Flask y SQLAlchemy
 🔹 Proyectos de Programación Orientada a Objetos
 
 ---
